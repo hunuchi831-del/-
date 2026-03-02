@@ -4,7 +4,7 @@ let startBtn = document.getElementById("startBtn");
 let section2 = document.getElementById("section2");
 
 section2.style.display = "none"
-const topic = ["a","b","c","d","e"];
+const topic = ["学校は週4日制にするべきである","制服は廃止するべきである","スマホの使用時間を法律で制限すべきである","給食は完全無料にすべきである","消費税を廃止すべきである","校則は生徒投票で決めるべきである","AIを教師にするべきである"];
 
 function showRandom(){
   let index = Math.floor(Math.random() * topic.length);
