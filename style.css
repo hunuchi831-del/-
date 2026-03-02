@@ -1,0 +1,66 @@
+/* 全体 */
+body {
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+  background: #f4f6f8;
+  text-align: center;
+}
+
+/* ヘッダー */
+header {
+  background: #1f2a44;
+  color: white;
+  padding: 20px;
+}
+
+.head {
+  margin: 0;
+  font-size: 32px;
+}
+
+/* セクション共通 */
+section {
+  margin: 40px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* ランダム表示 */
+#random {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* タイマー */
+#time {
+  font-size: 48px;
+  font-weight: bold;
+  color: #d62828;
+  margin-bottom: 20px;
+}
+
+/* ボタン */
+button {
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background: #3a86ff;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #265ecf;
+}
+
+button:disabled {
+  background: #999;
+  cursor: not-allowed;
+}
